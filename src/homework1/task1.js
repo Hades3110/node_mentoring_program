@@ -1,4 +1,4 @@
-const process = require('process');
+import * as process from 'process';
 
 process.stdin.on('data', data => {
     data = data.toString().split('').reverse().join('');
